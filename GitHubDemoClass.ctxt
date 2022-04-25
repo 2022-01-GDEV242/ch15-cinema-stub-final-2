@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=GitHubDemoClass
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ GitHubDemoClass\ here.\r\n\r\n\ @author\ Crosbie\r\n\ @version\ 0.1a\r\n
+comment1.params=
+comment1.target=GitHubDemoClass()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ GitHubDemoClass\r\n
+comment2.params=
+comment2.target=void\ printCrosbie()
+comment3.params=
+comment3.target=void\ printJeremiah()
+comment4.params=
+comment4.target=void\ printMax()
+comment5.params=
+comment5.target=void\ printEddie()
+comment5.text=\r\n\ This\ method\ prints\ the\ name\ of\ the\ one\ known\ as\ Eddie.\r\n
+numComments=6
