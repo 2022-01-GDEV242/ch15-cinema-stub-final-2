@@ -25,6 +25,10 @@ public class GitHubDemoClass
         
     }
     
+    public void printJeremiah(){
+        System.out.println("My name is Jeremiah Curtis");
+    }
+    
     
     
 }
