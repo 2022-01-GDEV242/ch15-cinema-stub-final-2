@@ -32,6 +32,9 @@ public class GitHubDemoClass
         System.out.println("My name is Max Micheller");
     }
     
+    /**
+     * This method prints the name of the one known as Eddie.
+     */
     public void printEddie(){
         System.out.println("My name is Eddie G!");
     }
