@@ -25,8 +25,13 @@ public class GitHubDemoClass
         
     }
     
+<<<<<<< Updated upstream
     public void printJeremiah(){
         System.out.println("My name is Jeremiah Curtis");
+=======
+    public void printMax(){
+        System.out.println("My name is Max Micheller");
+>>>>>>> Stashed changes
     }
     
     
