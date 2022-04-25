@@ -1,19 +1,19 @@
 
 /**
- * Write a description of class Max here.
+ * Write a description of class CinemaBookingSystem here.
  *
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Max
+public class CinemaBookingSystem
 {
     // instance variables - replace the example below with your own
     private int x;
 
     /**
-     * Constructor for objects of class Max
+     * Constructor for objects of class CinemaBookingSystem
      */
-    public Max()
+    public CinemaBookingSystem()
     {
         // initialise instance variables
         x = 0;
