@@ -20,12 +20,10 @@ public class GitHubDemoClass
         x = 0;
     }
 
-      public void printCrosbie(){
+    public void printCrosbie(){
         System.out.println("My name is Bill Crosbie");
-        
     }
     
-
     public void printJeremiah(){
         System.out.println("My name is Jeremiah Curtis");
     }
