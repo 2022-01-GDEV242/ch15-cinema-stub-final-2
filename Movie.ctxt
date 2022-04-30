@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Movie
+comment0.text=\r\n\ Movie\ handles\ the\ movies\ that\ are\ playing\ currently.\ In\ a\r\n\ complete\ version\ specific\ movies\ would\ be\ directly\ attached\ \r\n\ to\ specific\ theaters.\ But\ for\ this\ we\ just\ used\ a\ randomizer\r\n\ to\ simulate.\r\n\r\n\ @author\ Final\ 2\ Crew\r\n\ @version\ 4.25.22\r\n
+comment1.params=
+comment1.target=Movie()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Movie\r\n
+comment2.params=
+comment2.target=void\ getMovie()
+comment2.text=\r\n\ getMovie()\ method\ returns\ what\ it\ does\ and\ a\ random\r\n\ movie\ that\ could\ be\ playing.\r\n\r\n\ @param\ \ movies\ available\ in\ movies\ arraylist\r\n\ @return\ \ \ \ random\ movie\ playing\r\n
+numComments=3
