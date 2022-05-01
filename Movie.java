@@ -21,9 +21,9 @@ public class Movie
      */
     public Movie()
     {
-    movies.add("Guardians of the Galaxy");
-    movies.add("The Avengers");
-    movies.add("Batman");
+        movies.add("Guardians of the Galaxy");
+        movies.add("The Avengers");
+        movies.add("Batman");
     }
 
     /**
