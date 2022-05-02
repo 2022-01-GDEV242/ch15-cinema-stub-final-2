@@ -5,10 +5,10 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Rows
+public class Rows extends Theater
 {
     // instance variables - replace the example below with your own
-    private int x;
+    private Seats seat;
 
     /**
      * Constructor for objects of class Rows
@@ -16,7 +16,7 @@ public class Rows
     public Rows()
     {
         // initialise instance variables
-        x = 0;
+        
     }
 
     /**
@@ -25,9 +25,8 @@ public class Rows
      * @param  y  a sample parameter for a method
      * @return    the sum of x and y
      */
-    public int sampleMethod(int y)
+    public void seatsAvailable(Seats seat)
     {
-        // put your code here
-        return x + y;
+        
     }
 }

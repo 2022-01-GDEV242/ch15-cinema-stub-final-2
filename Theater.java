@@ -10,7 +10,7 @@ import java.util.List;
  * @author Final 2 Crew
  * @version 4.25.22
  */
-public class Theater
+public class Theater extends SeatBooking
 {
     List<String> theaters = new ArrayList<String>();
     List<String> movies = new ArrayList<String>();
@@ -52,35 +52,6 @@ public class Theater
         int random = rand.nextInt(theaters.size());
         theater = theaters.get(random);
         return "This returns the Theater that the movie is being played in, for example: " + theater;
-    }
-    
-    /**
-     * getMovie() method returns what it does and a random
-     * movie that could be playing.
-     *
-     * @param  movies available in movies arraylist
-     * @return    what this method does and a random movie playing
-     */
-    public String getMovie()
-    {
-        int random = rand.nextInt(movies.size());
-        movie = movies.get(random);
-        return "This returns the movie playing. For example, " + movie;
-    }
-    
-    /**
-     * getTime() method returns what it does and a random
-     * time that a movie could be playing.
-     *
-     * @param  times available in times arraylist
-     * @return    what this method does and a random time of a movie playing
-     */
-    public String getTime()
-    {
-        int random = rand.nextInt(times.size());
-        time = times.get(random);
-        String returnString = "This returns the time of a movie playing. For example, " + time;
-        return returnString;
     }
     
     /**

@@ -11,10 +11,15 @@ import java.util.List;
  * @author Final 2 Crew
  * @version 4.25.22
  */
-public class Movie
+public class Movie extends Theater
 {
     // instance variables - replace the example below with your own
     List<String> movies = new ArrayList<String>();
+    List<String> times = new ArrayList<String>();
+    
+    private String movie;
+    private String time;
+    
     Random rand = new Random();
     /**
      * Constructor for objects of class Movie
@@ -24,19 +29,38 @@ public class Movie
         movies.add("Guardians of the Galaxy");
         movies.add("The Avengers");
         movies.add("Batman");
+        
+        times.add("1:45pm");
+        times.add("4:30pm");
+        times.add("7:30pm");
     }
 
+    /**
+     * getTime() method returns what it does and a random
+     * time that a movie could be playing.
+     *
+     * @param  times available in times arraylist
+     * @return    what this method does and a random time of a movie playing
+     */
+    public String getTime()
+    {
+        int random = rand.nextInt(times.size());
+        time = times.get(random);
+        String returnString = "This returns the time of a movie playing. For example, " + time;
+        return returnString;
+    }
+    
     /**
      * getMovie() method returns what it does and a random
      * movie that could be playing.
      *
      * @param  movies available in movies arraylist
-     * @return    random movie playing
+     * @return    what this method does and a random movie playing
      */
-    public void getMovie()
+    public String getMovie()
     {
         int random = rand.nextInt(movies.size());
-        String movie = movies.get(random);
-        System.out.println("This returns the movie playing. For example, " + movie);
+        movie = movies.get(random);
+        return "This returns the movie playing. For example, " + movie;
     }
 }

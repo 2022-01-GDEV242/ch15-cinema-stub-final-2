@@ -1,19 +1,19 @@
 
 /**
- * Write a description of class Reservation here.
+ * Write a description of class MovieCollection here.
  *
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Reservation extends SeatBooking
+public class MovieCollection
 {
     // instance variables - replace the example below with your own
     private int x;
 
     /**
-     * Constructor for objects of class Reservation
+     * Constructor for objects of class MovieCollection
      */
-    public Reservation()
+    public MovieCollection()
     {
         // initialise instance variables
         x = 0;
