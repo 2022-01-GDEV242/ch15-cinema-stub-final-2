@@ -25,9 +25,10 @@ public class CinemaBookingSystem
      * @param  y  a sample parameter for a method
      * @return    the sum of x and y
      */
-    public int sampleMethod(int y)
+    public String findReservation(PhoneNumber phone)
     {
         // put your code here
-        return x + y;
+        String reservation = ("This is your reservation");
+        return reservation;
     }
 }
