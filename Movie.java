@@ -17,6 +17,8 @@ public class Movie extends Theater
     List<String> movies = new ArrayList<String>();
     List<String> times = new ArrayList<String>();
     
+    private TimeDate timeDate;
+    
     private String movie;
     private String time;
     
