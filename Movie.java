@@ -22,23 +22,10 @@ public class Movie
     {
         
     }
-
-    /**
-     * getTime() method returns what it does and a random
-     * time that a movie could be playing.
-     *
-     * @param  times available in times arraylist
-     * @return    what this method does and a random time of a movie playing
-     */
-    public String getTime()
-    {
-        return "";
-    }
     
     /**
      * Returns the name of the Movie
      * movie that could be playing.
-     *
      */
     public String getMovieName()
     {
@@ -46,10 +33,11 @@ public class Movie
     }
     
     /**
-     * Returns the date and time of the Movie
+     * Returns the date and time of the Movie as a String object
+     * @return the date and time of the 
      */
-    public TimeDate getTimeDate()
+    public String getTimeDate()
     {
-        return timeDate;
+        return timeDate.getTimeString();
     }
 }

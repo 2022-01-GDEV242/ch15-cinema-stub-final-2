@@ -8,7 +8,6 @@
 public class CinemaBookingSystem
 {
     private MovieCollection movieColletion;
-    private 
     /**
      * Constructor for objects of class CinemaBookingSystem
      */
@@ -18,11 +17,20 @@ public class CinemaBookingSystem
     }
     
     /**
-     * Takes the customer's phone number for the reservation
+     * Takes the customer's phone number and the number of seats for the reservation
      * @param phoneNumber The customer's phone nubmer
      */
-    public void takeReservation(int phoneNumber)
+    public void takeReservation(int phoneNumber, int seats)
     {
-        Reservation.setPhoneNumber(phoneNumber);
+        
+    }
+    
+    /**
+     * Adds a movie to the movieCollection object
+     * 
+     */
+    public void addMovie(Movie movie)
+    {
+        
     }
 }

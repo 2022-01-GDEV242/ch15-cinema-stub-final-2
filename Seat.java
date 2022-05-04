@@ -2,8 +2,8 @@
 /**
  * This holds information on what makes up a seat
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Final 2 Crew
+ * @version 4.25.22
  */
 public class Seat
 {

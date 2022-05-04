@@ -1,9 +1,9 @@
 
 /**
- * Write a description of class TimeDate here.
+ * The TimeDate class holds the time and the date for a reervation
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Final 2 Crew
+ * @version 4.25.22
  */
 public class TimeDate{
     private int month;
@@ -26,7 +26,7 @@ public class TimeDate{
 
     /**
      * Returns a TimeDate object as a string;
-     * @return  A string of the time
+     * @return  A string of the time and date
      */
     public String getTimeString()
     {

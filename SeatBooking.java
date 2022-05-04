@@ -2,8 +2,8 @@
 /**
  * Write a description of class SeatBooking here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Final 2 Crew
+ * @version 4.25.22
  */
 public class SeatBooking
 {
