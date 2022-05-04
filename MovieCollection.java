@@ -1,4 +1,4 @@
-
+import java.util.ArrayList;
 /**
  * Write a description of class MovieCollection here.
  *
@@ -7,27 +7,14 @@
  */
 public class MovieCollection
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
+    private ArrayList<Movie> movies;
     /**
      * Constructor for objects of class MovieCollection
+     * @param
+     * 
      */
-    public MovieCollection()
+    public MovieCollection(Movie movie)
     {
-        // initialise instance variables
-        x = 0;
-    }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+        
     }
 }

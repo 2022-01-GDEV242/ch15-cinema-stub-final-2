@@ -1,13 +1,7 @@
 #BlueJ class context
 comment0.target=Theater
-comment0.text=\r\n\ Theater\ handles\ the\ theaters\ that\ are\ available.\ In\ a\r\n\ complete\ version\ specific\ theaters\ would\ be\ directly\ attached\ \r\n\ to\ specific\ movies\ and\ times.\ But\ for\ this\ we\ just\ used\ a\ \r\n\ randomizer\ to\ simulate\ a\ theater\ with\ a\ random\ movie\ at\ a\ random\ time.\r\n\r\n\ @author\ Final\ 2\ Crew\r\n\ @version\ 4.25.22\r\n
+comment0.text=\n\ Theater\ handles\ the\ theaters\ that\ are\ available.\ In\ a\n\ complete\ version\ specific\ theaters\ would\ be\ directly\ attached\ \n\ to\ specific\ movies\ and\ times.\ But\ for\ this\ we\ just\ used\ a\ \n\ randomizer\ to\ simulate\ a\ theater\ with\ a\ random\ movie\ at\ a\ random\ time.\n\n\ @author\ Final\ 2\ Crew\n\ @version\ 4.25.22\n
 comment1.params=
 comment1.target=Theater()
-comment1.text=\r\n\ Available\ Theaters,\ Movies\ and\ Times\r\n
-comment2.params=
-comment2.target=java.lang.String\ getTheater()
-comment2.text=\r\n\ getTheater()\ method\ returns\ what\ it\ does\ and\ a\ random\r\n\ theater\ that\ could\ be\ playing.\r\n\r\n\ @param\ \ theaters\ available\ in\ theaters\ arraylist\r\n\ @return\ \ \ \ what\ this\ method\ does\ and\ a\ random\ theater,\ time\ of\ movie\ and\ movie\r\n
-comment3.params=
-comment3.target=java.lang.String\ randomShowing()
-comment3.text=\r\n\ randomShowing()\ method\ returns\ what\ it\ does\ and\ a\ random\r\n\ movie\ that\ is\ available\ at\ a\ random\ time\ and\ in\ a\ random\ theater.\r\n\r\n\ @param\ \ times\ available\ in\ times\ arraylist,\ movies\ available\ in\ movies\ arraylist\ and\ theaters\ available\ in\ theaters\ arraylist\r\n\ @return\ \ \ \ what\ this\ method\ does\ and\ a\ random\ movie\ at\ a\ random\ time\ in\ a\ random\ theater\r\n
-numComments=4
+comment1.text=\n\ Available\ Theaters,\ Movies\ and\ Times\n
+numComments=2

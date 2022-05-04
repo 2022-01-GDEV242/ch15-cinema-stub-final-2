@@ -7,27 +7,22 @@
  */
 public class CinemaBookingSystem
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
+    private MovieCollection movieColletion;
+    private 
     /**
      * Constructor for objects of class CinemaBookingSystem
      */
     public CinemaBookingSystem()
     {
-        // initialise instance variables
-        x = 0;
+         
     }
-
+    
     /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
+     * Takes the customer's phone number for the reservation
+     * @param phoneNumber The customer's phone nubmer
      */
-    public int sampleMethod(int y)
+    public void takeReservation(int phoneNumber)
     {
-        // put your code here
-        return x + y;
+        Reservation.setPhoneNumber(phoneNumber);
     }
 }

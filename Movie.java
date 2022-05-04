@@ -1,6 +1,4 @@
 import java.util.ArrayList;
-import java.util.Random;
-import java.util.List;
 
 /**
  * Movie handles the movies that are playing currently. In a
@@ -11,28 +9,18 @@ import java.util.List;
  * @author Final 2 Crew
  * @version 4.25.22
  */
-public class Movie extends Theater
+public class Movie
 {
-    // instance variables - replace the example below with your own
-    List<String> movies = new ArrayList<String>();
-    List<String> times = new ArrayList<String>();
-    
-    private String movie;
-    private String time;
-    
-    Random rand = new Random();
+    private Theater theater;
+    private String name;
+    private TimeDate timeDate;
     /**
      * Constructor for objects of class Movie
+     * @param theater The theater this movie is playing in
      */
-    public Movie()
+    public Movie(Theater theater)
     {
-        movies.add("Guardians of the Galaxy");
-        movies.add("The Avengers");
-        movies.add("Batman");
         
-        times.add("1:45pm");
-        times.add("4:30pm");
-        times.add("7:30pm");
     }
 
     /**
@@ -44,23 +32,24 @@ public class Movie extends Theater
      */
     public String getTime()
     {
-        int random = rand.nextInt(times.size());
-        time = times.get(random);
-        String returnString = "This returns the time of a movie playing. For example, " + time;
-        return returnString;
+        return "";
     }
     
     /**
-     * getMovie() method returns what it does and a random
+     * Returns the name of the Movie
      * movie that could be playing.
      *
-     * @param  movies available in movies arraylist
-     * @return    what this method does and a random movie playing
      */
-    public String getMovie()
+    public String getMovieName()
     {
-        int random = rand.nextInt(movies.size());
-        movie = movies.get(random);
-        return "This returns the movie playing. For example, " + movie;
+        return name;
+    }
+    
+    /**
+     * Returns the date and time of the Movie
+     */
+    public TimeDate getTimeDate()
+    {
+        return timeDate;
     }
 }

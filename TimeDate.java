@@ -6,28 +6,30 @@
  * @version (a version number or a date)
  */
 public class TimeDate{
-    // instance variables - replace the example below with your own
-    private int x;
+    private int month;
+    private int day;
+    private int hour;
+    private int minute;
+    private String merdian;
 
     /**
-     * Constructor for objects of class TimeDate
+     * Constructor for the TimeDate class
+     * @param month The month
+     * @param day The day
+     * @param hour The hour
+     * @param minute The minute
      */
-    public TimeDate()
+    public TimeDate(int month, int day, int hour, int minute, String merdian)
     {
-        // initialise instance variables
-        x = 0;
+        
     }
 
     /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
+     * Returns a TimeDate object as a string;
+     * @return  A string of the time
      */
-    public String time()
+    public String getTimeString()
     {
-        // put your code here
-        String time = "4:30";
-        return time;
+        return "";
     }
 }

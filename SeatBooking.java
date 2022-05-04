@@ -7,20 +7,15 @@
  */
 public class SeatBooking
 {
-    // instance variables - replace the example below with your own
-    private int x;
-    private String example = "example";
 
     /**
      * Constructor for objects of class SeatBooking
      */
     public SeatBooking()
     {
-        // initialise instance variables
-        x = 0;
+        
     }
 
-    
     /**
      * An example of a method - replace this comment with your own
      *
@@ -29,10 +24,6 @@ public class SeatBooking
      */
     public void reservationsCreated()
     {
-        System.out.println("This holds all created reservations.");
-    }
     
-    public String getReservation(Reservation reservation){
-        return example;
     }
 }

@@ -5,29 +5,38 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Reservation extends SeatBooking
+public class Reservation
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
+    private int phoneNumber;
+    private int seats;
+    private Movie movie;
+    
+    
     /**
      * Constructor for objects of class Reservation
+     * @param phoneNumber The customer's phone number
+     * @param seats The number of requested seats
+     * 
      */
-    public Reservation()
+    public Reservation(int phoneNumber, int seats)
     {
-        // initialise instance variables
-        x = 0;
+        
     }
-
+    
     /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
+     * Gets a reservation
+     * @return A reservation object
      */
-    public int sampleMethod(int y)
+    public int getPhoneNumber()
     {
-        // put your code here
-        return x + y;
+        return phoneNumber;
+    }
+    
+    /**
+     * Sets a reservation 
+     */
+    public void setPhoneNumber()
+    {
+
     }
 }

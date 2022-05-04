@@ -1,10 +1,13 @@
 #BlueJ class context
 comment0.target=Movie
-comment0.text=\r\n\ Movie\ handles\ the\ movies\ that\ are\ playing\ currently.\ In\ a\r\n\ complete\ version\ specific\ movies\ would\ be\ directly\ attached\ \r\n\ to\ specific\ theaters.\ But\ for\ this\ we\ just\ used\ a\ randomizer\r\n\ to\ simulate.\r\n\r\n\ @author\ Final\ 2\ Crew\r\n\ @version\ 4.25.22\r\n
+comment0.text=\n\ Movie\ handles\ the\ movies\ that\ are\ playing\ currently.\ In\ a\n\ complete\ version\ specific\ movies\ would\ be\ directly\ attached\ \n\ to\ specific\ theaters.\ But\ for\ this\ we\ just\ used\ a\ randomizer\n\ to\ simulate.\n\n\ @author\ Final\ 2\ Crew\n\ @version\ 4.25.22\n
 comment1.params=
 comment1.target=Movie()
-comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Movie\r\n
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Movie\n
 comment2.params=
-comment2.target=void\ getMovie()
-comment2.text=\r\n\ getMovie()\ method\ returns\ what\ it\ does\ and\ a\ random\r\n\ movie\ that\ could\ be\ playing.\r\n\r\n\ @param\ \ movies\ available\ in\ movies\ arraylist\r\n\ @return\ \ \ \ random\ movie\ playing\r\n
-numComments=3
+comment2.target=java.lang.String\ getTime()
+comment2.text=\n\ getTime()\ method\ returns\ what\ it\ does\ and\ a\ random\n\ time\ that\ a\ movie\ could\ be\ playing.\n\n\ @param\ \ times\ available\ in\ times\ arraylist\n\ @return\ \ \ \ what\ this\ method\ does\ and\ a\ random\ time\ of\ a\ movie\ playing\n
+comment3.params=
+comment3.target=java.lang.String\ getMovie()
+comment3.text=\n\ getMovie()\ method\ returns\ what\ it\ does\ and\ a\ random\n\ movie\ that\ could\ be\ playing.\n\n\ @param\ \ movies\ available\ in\ movies\ arraylist\n\ @return\ \ \ \ what\ this\ method\ does\ and\ a\ random\ movie\ playing\n
+numComments=4
