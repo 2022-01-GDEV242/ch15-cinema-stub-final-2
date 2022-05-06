@@ -8,7 +8,7 @@
 public class CinemaBookingSystem
 {
     // instance variables - replace the example below with your own
-    private int x;
+    private Reservation reservation;
 
     /**
      * Constructor for objects of class CinemaBookingSystem
@@ -16,7 +16,7 @@ public class CinemaBookingSystem
     public CinemaBookingSystem()
     {
         // initialise instance variables
-        x = 0;
+        
     }
 
     /**
@@ -25,10 +25,8 @@ public class CinemaBookingSystem
      * @param  y  a sample parameter for a method
      * @return    the sum of x and y
      */
-    public String findReservation(PhoneNumber phone)
+    public void findReservation(PhoneNumber phone)
     {
-        // put your code here
-        String reservation = ("This is your reservation");
-        return reservation;
+        System.out.println(reservation);
     }
 }

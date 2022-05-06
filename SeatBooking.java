@@ -8,7 +8,12 @@
 public class SeatBooking
 {
     // instance variables - replace the example below with your own
-    private int x;
+    private Movie movie;
+    private Theater theater;
+    private TimeDate time;
+    private Rows row;
+    private Seats seat;
+    
     private String example = "example";
 
     /**
@@ -17,7 +22,7 @@ public class SeatBooking
     public SeatBooking()
     {
         // initialise instance variables
-        x = 0;
+        
     }
 
     
@@ -32,7 +37,7 @@ public class SeatBooking
         System.out.println("This holds all created reservations.");
     }
     
-    public String getReservation(Reservation reservation){
+    public String getReservation(){
         return example;
     }
 }

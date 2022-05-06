@@ -7,7 +7,7 @@
  */
 public class TimeDate{
     // instance variables - replace the example below with your own
-    private int x;
+    private Theater theater;
 
     /**
      * Constructor for objects of class TimeDate
@@ -15,7 +15,7 @@ public class TimeDate{
     public TimeDate()
     {
         // initialise instance variables
-        x = 0;
+        
     }
 
     /**

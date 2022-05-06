@@ -10,14 +10,15 @@ import java.util.List;
  * @author Final 2 Crew
  * @version 4.25.22
  */
-public class Theater extends SeatBooking
+public class Theater 
 {
+    private Rows rows;
     List<String> theaters = new ArrayList<String>();
-    List<String> movies = new ArrayList<String>();
+    
     List<String> times = new ArrayList<String>();
-
+    
     private String theater;
-    private String movie;
+    
     private String time;
     
     Random rand = new Random();
@@ -30,9 +31,6 @@ public class Theater extends SeatBooking
         theaters.add("Theater 2");
         theaters.add("Theater 3");
         
-        movies.add("Guardians of the Galaxy");
-        movies.add("The Avengers");
-        movies.add("Batman");
         
         times.add("1:45pm");
         times.add("4:30pm");
@@ -65,11 +63,9 @@ public class Theater extends SeatBooking
     {
         int randomTheater = rand.nextInt(theaters.size());
         theater = theaters.get(randomTheater);
-        int randomMovie = rand.nextInt(movies.size());
-        movie = movies.get(randomMovie);
         int randomTime = rand.nextInt(times.size());
         time = times.get(randomTime);
         
-        return "Returns Random Available Showing:" + "   Ex. " + "The movie " + movie + " is available at " + time + " in " + theater;
+        return "Returns Random Available Showing:" + "   Ex. " + "The movie " + " is available at " + time + " in " + theater;
     }
 }

@@ -1,3 +1,5 @@
+import java.util.List;
+import java.util.ArrayList;
 
 /**
  * Write a description of class MovieCollection here.
@@ -7,27 +9,26 @@
  */
 public class MovieCollection
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
+    List<String> movies = new ArrayList<String>();
+ 
     /**
      * Constructor for objects of class MovieCollection
      */
     public MovieCollection()
     {
-        // initialise instance variables
-        x = 0;
+        movies.add("Guardians of the Galaxy");
+        movies.add("The Avengers");
+        movies.add("Batman");
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
+    public void moviesAvailable()
     {
-        // put your code here
-        return x + y;
+    System.out.println("Movies Available: " + movies);
+    }
+    
+    public void selectMovie(String movie)
+    {
+        
+        System.out.println("Movie Selected: " + movie);
     }
 }

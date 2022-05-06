@@ -11,7 +11,7 @@ import java.util.List;
  * @author Final 2 Crew
  * @version 4.25.22
  */
-public class Movie extends Theater
+public class Movie 
 {
     // instance variables - replace the example below with your own
     List<String> movies = new ArrayList<String>();

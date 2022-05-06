@@ -5,7 +5,7 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Rows extends Theater
+public class Rows
 {
     // instance variables - replace the example below with your own
     private Seats seat;
