@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=TimeDate
-comment0.text=\r\n\ TimeDate\ handles\ the\ time\ a\ specific\ movie\ is\ playing.\r\n\ Based\ on\ the\ time\ selected\ for\ the\ movie\ in\ the\ movie\ class\r\n\ the\ TimeDate\ class\ would\ then\ connect\ that\ time\ to\ a\ specific\ theater.\r\n\r\n\ @author\ Final\ 2\ Crew\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment0.text=\r\n\ TimeDate\ handles\ the\ time\ a\ specific\ movie\ is\ playing.\r\n\ Based\ on\ the\ time\ selected\ for\ the\ movie\ in\ the\ movie\ class\r\n\ the\ TimeDate\ class\ would\ then\ connect\ that\ time\ to\ a\ specific\ theater.\r\n\r\n\ @author\ Final\ 2\ Crew\r\n\ @version\ 5.8.22\r\n
 comment1.params=
 comment1.target=TimeDate()
 comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ TimeDate\r\n

@@ -2,7 +2,7 @@ import java.util.ArrayList;
 /**
  * Reservation holds information about phonenumber and seatbooking.
  * This connects the two together to hold information for the
- * customers.
+ * customers. 
  *
  * @author Final 2 Crew
  * @version 5.8.22

@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Theater
-comment0.text=\r\n\ Theater\ handles\ the\ theater\ that\ is\ selected\ for\ a\ specific\r\n\ movie\ at\ a\ specific\ time.\ The\ theater\ holds\ information\ about\r\n\ rows\ in\ the\ theater.\r\n\r\n\ @author\ Final\ 2\ Crew\r\n\ @version\ 4.25.22\r\n
+comment0.text=\r\n\ Theater\ handles\ the\ theater\ that\ is\ selected\ for\ a\ specific\r\n\ movie\ at\ a\ specific\ time.\ The\ theater\ holds\ information\ about\r\n\ rows\ in\ the\ theater.\r\n\r\n\ @author\ Final\ 2\ Crew\r\n\ @version\ 5.8.22\r\n
 comment1.params=
 comment1.target=Theater()
 comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Theater\r\n
