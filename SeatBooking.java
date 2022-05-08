@@ -37,8 +37,8 @@ public class SeatBooking
      * @param  movie(from movie collection), time, theater, row, seat
      * @return    all selected variables together
      */
-    public void createSeatbooking(MovieCollection movie, TimeDate time, Theater theater, Rows row, Seats seat)
+    public void createSeatbooking(Movie movie, TimeDate time, Theater theater, Rows row, Seats seat)
     {
-        System.out.println("This holds all created reservations.");
+        System.out.println("This creates a seat booking: " + " Movie: " + movie + " Time: " + time + " Theater: " + theater + " Row: " + row + " Seat: " + seat);
     }
 }
