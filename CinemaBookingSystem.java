@@ -88,4 +88,10 @@ public class CinemaBookingSystem
         PhoneNumber phone = new PhoneNumber();
         phone.getReservation(number);
     }
+    
+    public void moviesAvailable()
+    {
+        MovieCollection movies = new MovieCollection();
+        movies.moviesAvailable();
+    }
 }

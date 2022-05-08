@@ -31,14 +31,17 @@ public class Reservation
     {
         //create new seatbooking when reservation is created
         SeatBooking seatbooking = new SeatBooking();
+        seatbooking.createSeatbooking();
         //create a new phonenumber when reservation is created
         //not used in our simulation
         PhoneNumber phone = new PhoneNumber();
         
         SeatBooking booking = seatbooking;
-        for(int i = 1; i < reservations.size(); i++){
-            reservations.add("Created Reservation: " + i + " booking " + booking + " attached to # " + number);;
-        } 
+        
+        int i = 0;
+        reservations.add("Created Reservation #" + i + " booking " + booking + " attached to # " + number);
+        System.out.println("Created Reservation #" + i + " booking " + booking + " attached to # " + number);
+        i++; 
     }
     
     /**
@@ -50,7 +53,7 @@ public class Reservation
      */
     public void allReservations()
     {
-        System.out.println("Reservations: " + reservations);
+        System.out.println(reservations);
     }
     
     /**

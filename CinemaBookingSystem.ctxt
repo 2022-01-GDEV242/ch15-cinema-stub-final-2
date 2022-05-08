@@ -18,4 +18,6 @@ comment5.text=\r\n\ getReservationWithBooking()\ method\ allows\ the\ user\ to\r
 comment6.params=number
 comment6.target=void\ getReservationWithNumber(PhoneNumber)
 comment6.text=\r\n\ getReservationWithNumber()\ method\ allows\ the\ user\ to\r\n\ find\ information\ on\ their\ reservation\ with\ their\ \r\n\ phone\ number.\r\n\r\n\ @param\ \ reservations(phone\ numbers)\r\n\ @return\ \ \ \ reservation\ user\ is\ looking\ for\r\n
-numComments=7
+comment7.params=
+comment7.target=void\ moviesAvailable()
+numComments=8
