@@ -1,7 +1,10 @@
 #BlueJ class context
 comment0.target=PhoneNumber
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ PhoneNumber\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment0.text=\r\n\ PhoneNumber\ class\ holds\ information\ on\ what\ a\ phone\ number\r\n\ is\ and\ it\ allows\ for\ users\ to\ use\ their\ phone\ number\ to\ \r\n\ find\ information\ about\ their\ reservations.\r\n\r\n\ @author\ Final\ 2\ Crew\r\n\ @version\ 5.8.22\r\n
 comment1.params=
 comment1.target=PhoneNumber()
 comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ PhoneNumber\r\n
-numComments=2
+comment2.params=number
+comment2.target=java.lang.String\ getReservation(PhoneNumber)
+comment2.text=\r\n\ getReservation()\ method\ allows\ the\ user\ to\ find\ their\r\n\ reservation\ based\ on\ their\ phonenumber\ information\r\n\ \r\n\ @param\ \ reservations(seatbookings)\ &\ phonenumbers\r\n\ @return\ \ \ \ all\ reservations\r\n
+numComments=3

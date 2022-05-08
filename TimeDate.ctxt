@@ -1,10 +1,13 @@
 #BlueJ class context
 comment0.target=TimeDate
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ TimeDate\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment0.text=\r\n\ TimeDate\ handles\ the\ time\ a\ specific\ movie\ is\ playing.\r\n\ Based\ on\ the\ time\ selected\ for\ the\ movie\ in\ the\ movie\ class\r\n\ the\ TimeDate\ class\ would\ then\ connect\ that\ time\ to\ a\ specific\ theater.\r\n\r\n\ @author\ Final\ 2\ Crew\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
 comment1.params=
 comment1.target=TimeDate()
 comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ TimeDate\r\n
 comment2.params=
-comment2.target=java.lang.String\ time()
-comment2.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\r\n\ @param\ \ y\ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ the\ sum\ of\ x\ and\ y\r\n
-numComments=3
+comment2.target=void\ availableTheaters()
+comment2.text=\r\n\ availableTheaters()\ method\ allows\ the\ user\ to\ see\ all\ the\r\n\ theaters\ playing\ the\ selected\ movie\ at\ the\ selected\ time.\r\n\ \r\n\ @param\ \ theaters\ available\ in\ theaters\ arraylist\r\n\ @return\ \ \ \ all\ theaters\ showing\ specific\ movie\ at\ specific\ time\r\n
+comment3.params=theater
+comment3.target=void\ selectTheater(Theater)
+comment3.text=\r\n\ selectTheater()\ method\ allows\ for\ user\ to\ get\ the\ theater\r\n\ that\ their\ movie\ is\ playing\ in\ based\ on\ the\ movie\ they\r\n\ picked\ at\ a\ specific\ time.\r\n\ \r\n\ @param\ \ theater\ selected\ based\ on\ movie\ and\ time\r\n\ @return\ \ \ \ selected\ theater\r\n
+numComments=4

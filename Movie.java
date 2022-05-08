@@ -1,11 +1,9 @@
 import java.util.ArrayList;
-import java.util.Random;
-import java.util.List;
-
 /**
- * Movie handles the movies that are playing currently. In a
- * complete version specific movies would be directly attached 
- * to specific theaters. But for this we just used a randomizer
+ * Movie handles the movie that is selected from MovieCollection
+ * to create a seatBooking with. In a complete version specific movies 
+ * would be directly attached to specific times in order to find the theater
+ * it would be playing in. But for this we just used a randomizer
  * to simulate.
  *
  * @author Final 2 Crew
@@ -13,56 +11,38 @@ import java.util.List;
  */
 public class Movie 
 {
-    // instance variables - replace the example below with your own
-    List<String> movies = new ArrayList<String>();
-    List<String> times = new ArrayList<String>();
+    ArrayList<String> times = new ArrayList<String>();
     
-    private TimeDate timeDate;
-    
-    private String movie;
-    private String time;
-    
-    Random rand = new Random();
     /**
      * Constructor for objects of class Movie
      */
     public Movie()
-    {
-        movies.add("Guardians of the Galaxy");
-        movies.add("The Avengers");
-        movies.add("Batman");
-        
+    {   
         times.add("1:45pm");
         times.add("4:30pm");
         times.add("7:30pm");
     }
 
     /**
-     * getTime() method returns what it does and a random
-     * time that a movie could be playing.
+     * availableTimes() method returns what it does and the times the selected movie is playing
      *
-     * @param  times available in times arraylist
+     * @param  times available for a specific movie
      * @return    what this method does and a random time of a movie playing
      */
-    public String getTime()
+    public String availableTimes()
     {
-        int random = rand.nextInt(times.size());
-        time = times.get(random);
-        String returnString = "This returns the time of a movie playing. For example, " + time;
+        String returnString = "This returns the times a movie is playing. Times: " + times;
         return returnString;
     }
     
     /**
-     * getMovie() method returns what it does and a random
-     * movie that could be playing.
+     * selectTime() method allows the user to select a time they want to see the movie
      *
-     * @param  movies available in movies arraylist
-     * @return    what this method does and a random movie playing
+     * @param  times available for a specific movie
+     * @return    what this method does and a random time of a movie playing
      */
-    public String getMovie()
+    public void selectTime(TimeDate time)
     {
-        int random = rand.nextInt(movies.size());
-        movie = movies.get(random);
-        return "This returns the movie playing. For example, " + movie;
+        System.out.println("You have chosen the time: " + time);
     }
 }

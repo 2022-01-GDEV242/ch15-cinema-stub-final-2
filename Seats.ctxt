@@ -1,10 +1,10 @@
 #BlueJ class context
 comment0.target=Seats
-comment0.text=\r\n\ This\ holds\ information\ on\ what\ makes\ up\ a\ seat\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment0.text=\r\n\ This\ holds\ information\ on\ what\ makes\ each\ individual\ seat\r\n\ per\ row\ and\ theater.\r\n\r\n\ @author\ Final\ 2\ Crew\r\n\ @version\ 5.8.22\r\n
 comment1.params=
 comment1.target=Seats()
 comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Seats\r\n
 comment2.params=
-comment2.target=int\ sampleSeat()
-comment2.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\r\n\ @param\ \ y\ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ the\ sum\ of\ x\ and\ y\r\n
+comment2.target=java.lang.String\ sampleSeat()
+comment2.text=\r\n\ sampleSeat()\ method\ is\ used\ to\ simulate\ a\ seat\ selection\r\n\r\n\ @param\ \ seats\ available\ in\ a\ specific\ row\ of\ a\ \r\n\ specific\ theater\r\n\ @return\ \ \ \ seat\ selected\ at\ random\r\n
 numComments=3

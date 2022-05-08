@@ -1,15 +1,16 @@
-
+import java.util.ArrayList;
+import java.util.Random;
 /**
- * This holds information on what makes up a seat
+ * This holds information on what makes each individual seat
+ * per row and theater.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Final 2 Crew
+ * @version 5.8.22
  */
 public class Seats
 {
-    // instance variables - replace the example below with your own
-    private int seat [] = {1,2,3,4,5,6,7,8,9,10};
-
+    ArrayList<Integer> seats = new ArrayList<Integer>();
+    Random rand = new Random();
     /**
      * Constructor for objects of class Seats
      */
@@ -20,17 +21,17 @@ public class Seats
     }
 
     /**
-     * An example of a method - replace this comment with your own
+     * sampleSeat() method is used to simulate a seat selection
      *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
+     * @param  seats available in a specific row of a 
+     * specific theater
+     * @return    seat selected at random
      */
-    public int sampleSeat()
+    public String sampleSeat()
     {
-        int example = 0;
-        for(int x = 0; x < seat.length; x++){
-            example = seat[x];
+        for(int i = 1; i < 21; i++){
+            seats.add(i);
         }
-        return example;
+        return "Seat: " + seats.get(rand.nextInt(seats.size()));
     }
 }

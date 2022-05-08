@@ -1,11 +1,16 @@
 #BlueJ class context
 comment0.target=MovieCollection
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ MovieCollection\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment0.text=\r\n\ MovieCollection\ handles\ the\ movies\ that\ are\ playing.\ In\ a\r\n\ complete\ version\ specific\ movies\ would\ be\ directly\ attached\ \r\n\ to\ specific\ times\ which\ would\ then\ give\ us\ the\ theater.\ \r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
 comment1.params=
 comment1.target=MovieCollection()
 comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ MovieCollection\r\n
 comment2.params=
 comment2.target=void\ moviesAvailable()
+comment2.text=\r\n\ moviesAvailable()\ method\ returns\ what\ movies\ are\ playing\r\n\r\n\ @param\ \ movies\ available\ in\ movies\ list\r\n\ @return\ \ \ \ movies\ available\r\n
 comment3.params=movie
-comment3.target=void\ selectMovie(java.lang.String)
-numComments=4
+comment3.target=void\ addMovieAvailable(java.lang.String)
+comment3.text=\r\n\ addMovieAvailable()\ method\ returns\ what\ movies\ are\ playing\ and\ the\ movie\ added\r\n\r\n\ @param\ \ movies\ available\ in\ the\ movies\ list\r\n\ @return\ \ \ \ movies\ available\ with\ new\ movie\ added\r\n
+comment4.params=movie
+comment4.target=void\ selectMovie(Movie)
+comment4.text=\r\n\ selectMovie()\ method\ allows\ the\ user\ to\ select\ a\ movie\ that\ a\ customer\ wants\ to\ see\r\n\r\n\ @param\ \ movies\ available\r\n\ @return\ \ \ \ movie\ selected\ and\ in\ complete\ version\ would\ also\ give\ available\ times\r\n
+numComments=5

@@ -1,15 +1,26 @@
-
+import java.util.Scanner;
 /**
- * Write a description of class CinemaBookingSystem here.
+ * CinemaBookingSystem is our main class that runs the entire
+ * system. It allows the user to create a new reservation,
+ * search for reservation via phone number or seatbooking info 
+ * and it allows user to see all reservations currently made.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Final 2 Crew
+ * @version 5.8.22
  */
 public class CinemaBookingSystem
 {
-    // instance variables - replace the example below with your own
-    private Reservation reservation;
-
+    public static void main(String[]args){
+        //ask for phone number to create Cinema Booking
+        Scanner k = new Scanner(System.in);
+        System.out.println("To create Reservation enter phone number:");
+        int number = k.nextInt();
+        System.out.println("You can now create your seat booking:");
+        //create new reservation with the phone number inputed
+        Reservation reservation = new Reservation();
+        reservation.makeReservation(number);
+    }
+    
     /**
      * Constructor for objects of class CinemaBookingSystem
      */
@@ -17,16 +28,64 @@ public class CinemaBookingSystem
     {
         // initialise instance variables
         
+    
     }
-
+    
     /**
-     * An example of a method - replace this comment with your own
+     * createReservation() method allows user to create new 
+     * rservation and attach their phone number to it.
      *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
+     * @param  reservations(seatbookings) & phonenumbers
+     * @return    new reservation
      */
-    public void findReservation(PhoneNumber phone)
+    public void createReservation()
     {
-        System.out.println(reservation);
+        //ask for phone number to create Cinema Booking
+        Scanner k = new Scanner(System.in);
+        System.out.println("To create Reservation enter phone number:");
+        int number = k.nextInt();
+        System.out.println("You can now create your seat booking:");
+        //create new reservation with the phone number inputed
+        Reservation reservation = new Reservation();
+        reservation.makeReservation(number);
+    }
+    
+    /**
+     * allReservations() method holds information on all 
+     * reservations created.
+     *
+     * @param  reservations(seatbookings) & phonenumbers
+     * @return    all reservations
+     */
+    public void allReservations()
+    {
+        Reservation reservation = new Reservation();
+        reservation.allReservations();
+    }
+    
+    /**
+     * getReservationWithBooking() method allows the user to
+     * find information on their reservation with their 
+     * booking information.
+     *
+     * @param  reservations(seatbookings)
+     * @return    reservation user is looking for
+     */
+    public void getReservationWithBooking(SeatBooking booking){
+        Reservation reservation = new Reservation();
+        reservation.getReservation(booking);
+    }
+    
+    /**
+     * getReservationWithNumber() method allows the user to
+     * find information on their reservation with their 
+     * phone number.
+     *
+     * @param  reservations(phone numbers)
+     * @return    reservation user is looking for
+     */
+    public void getReservationWithNumber(PhoneNumber number){
+        PhoneNumber phone = new PhoneNumber();
+        phone.getReservation(number);
     }
 }

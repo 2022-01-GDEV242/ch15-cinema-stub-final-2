@@ -1,33 +1,52 @@
-
+import java.util.ArrayList;
 /**
- * Write a description of class TimeDate here.
+ * TimeDate handles the time a specific movie is playing.
+ * Based on the time selected for the movie in the movie class
+ * the TimeDate class would then connect that time to a specific theater.
  *
- * @author (your name)
+ * @author Final 2 Crew
  * @version (a version number or a date)
  */
 public class TimeDate{
-    // instance variables - replace the example below with your own
-    private Theater theater;
-
+    ArrayList<String> theaters = new ArrayList<String>();
+    
     /**
      * Constructor for objects of class TimeDate
      */
     public TimeDate()
     {
-        // initialise instance variables
-        
+        theaters.add("Theater 1");
+        theaters.add("Theater 2");
+        theaters.add("Theater 3");
     }
 
     /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
+     * availableTheaters() method allows the user to see all the
+     * theaters playing the selected movie at the selected time.
+     * 
+     * @param  theaters available in theaters arraylist
+     * @return    all theaters showing specific movie at specific time
      */
-    public String time()
+    public void availableTheaters()
     {
-        // put your code here
-        String time = "4:30";
-        return time;
+        System.out.println("Available Theaters for your movie: " + theaters);    
     }
+    
+    /**
+     * selectTheater() method allows for user to get the theater
+     * that their movie is playing in based on the movie they
+     * picked at a specific time.
+     * 
+     * @param  theater selected based on movie and time
+     * @return    selected theater
+     */
+    public void selectTheater(Theater theater)
+    {
+        //IF COMPLETED getTheater() would have if statements 
+        //here to determine each theater based off specific 
+        //movie and time
+        System.out.println("Your movie is in theater: " + theater);    
+    }
+    
+    
 }

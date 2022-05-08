@@ -1,21 +1,16 @@
-
+import java.util.ArrayList;
 /**
- * Write a description of class SeatBooking here.
+ * SeatBooking class is used to store information about seats
+ * booked per showing. It uses movie, time, theater, rows and
+ * seats. This creates the seatbooking for the reservation.
  *
  * @author (your name)
  * @version (a version number or a date)
  */
 public class SeatBooking
 {
-    // instance variables - replace the example below with your own
-    private Movie movie;
-    private Theater theater;
-    private TimeDate time;
-    private Rows row;
-    private Seats seat;
+    ArrayList<SeatBooking> seatBookings = new ArrayList<SeatBooking>();
     
-    private String example = "example";
-
     /**
      * Constructor for objects of class SeatBooking
      */
@@ -25,19 +20,25 @@ public class SeatBooking
         
     }
 
-    
     /**
-     * An example of a method - replace this comment with your own
+     * seatBookings() method allows for the user to create a new seatBooking in a reservation
      *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
+     * @param  seatBookings array list
+     * @return    all seatBookings created
      */
-    public void reservationsCreated()
+    public void seatBookings()
     {
-        System.out.println("This holds all created reservations.");
+        System.out.println("Current Bookings: " + seatBookings);
     }
     
-    public String getReservation(){
-        return example;
+    /**
+     * createSeatBooking() method allows for the user to create a new seatBooking in a reservation
+     *
+     * @param  movie(from movie collection), time, theater, row, seat
+     * @return    all selected variables together
+     */
+    public void createSeatbooking(MovieCollection movie, TimeDate time, Theater theater, Rows row, Seats seat)
+    {
+        System.out.println("This holds all created reservations.");
     }
 }

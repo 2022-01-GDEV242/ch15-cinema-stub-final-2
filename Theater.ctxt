@@ -1,13 +1,13 @@
 #BlueJ class context
 comment0.target=Theater
-comment0.text=\r\n\ Theater\ handles\ the\ theaters\ that\ are\ available.\ In\ a\r\n\ complete\ version\ specific\ theaters\ would\ be\ directly\ attached\ \r\n\ to\ specific\ movies\ and\ times.\ But\ for\ this\ we\ just\ used\ a\ \r\n\ randomizer\ to\ simulate\ a\ theater\ with\ a\ random\ movie\ at\ a\ random\ time.\r\n\r\n\ @author\ Final\ 2\ Crew\r\n\ @version\ 4.25.22\r\n
+comment0.text=\r\n\ Theater\ handles\ the\ theater\ that\ is\ selected\ for\ a\ specific\r\n\ movie\ at\ a\ specific\ time.\ The\ theater\ holds\ information\ about\r\n\ rows\ in\ the\ theater.\r\n\r\n\ @author\ Final\ 2\ Crew\r\n\ @version\ 4.25.22\r\n
 comment1.params=
 comment1.target=Theater()
-comment1.text=\r\n\ Available\ Theaters,\ Movies\ and\ Times\r\n
-comment2.params=
-comment2.target=java.lang.String\ getTheater()
-comment2.text=\r\n\ getTheater()\ method\ returns\ what\ it\ does\ and\ a\ random\r\n\ theater\ that\ could\ be\ playing.\r\n\r\n\ @param\ \ theaters\ available\ in\ theaters\ arraylist\r\n\ @return\ \ \ \ what\ this\ method\ does\ and\ a\ random\ theater,\ time\ of\ movie\ and\ movie\r\n
-comment3.params=
-comment3.target=java.lang.String\ randomShowing()
-comment3.text=\r\n\ randomShowing()\ method\ returns\ what\ it\ does\ and\ a\ random\r\n\ movie\ that\ is\ available\ at\ a\ random\ time\ and\ in\ a\ random\ theater.\r\n\r\n\ @param\ \ times\ available\ in\ times\ arraylist,\ movies\ available\ in\ movies\ arraylist\ and\ theaters\ available\ in\ theaters\ arraylist\r\n\ @return\ \ \ \ what\ this\ method\ does\ and\ a\ random\ movie\ at\ a\ random\ time\ in\ a\ random\ theater\r\n
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Theater\r\n
+comment2.params=time
+comment2.target=void\ rowsAvailable(java.lang.String)
+comment2.text=\r\n\ rowsAvailable()\ method\ stores\ information\ on\ rows\ available\r\n\ in\ a\ specific\ theater\ based\ on\ a\ specific\ movie\ and\ time.\r\n\r\n\ @param\ \ rows\ available\ per\ theater\r\n\ @return\ \ \ \ rows\ that\ still\ have\ seats\ available\r\n
+comment3.params=row
+comment3.target=void\ selectRow(Rows)
+comment3.text=\r\n\ selectRow()\ method\ allows\ for\ user\ to\ select\ a\ row\ in\ \r\n\ their\ specified\ theater.\r\n\ \r\n\ @param\ \ rows\ available\ per\ theater\r\n\ @return\ \ \ \ row\ that\ person\ selects\ to\ sit\ in\r\n
 numComments=4
