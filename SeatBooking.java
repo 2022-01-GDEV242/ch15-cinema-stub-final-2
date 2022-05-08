@@ -4,8 +4,8 @@ import java.util.ArrayList;
  * booked per showing. It uses movie, time, theater, rows and
  * seats. This creates the seatbooking for the reservation.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Final 2 Crew
+ * @version 5.8.22
  */
 public class SeatBooking
 {

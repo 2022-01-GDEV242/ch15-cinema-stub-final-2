@@ -4,8 +4,8 @@ import java.util.ArrayList;
  * complete version specific movies would be directly attached 
  * to specific times which would then give us the theater. 
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Final 2 Crew
+ * @version 5.8.22
  */
 public class MovieCollection
 {

@@ -5,7 +5,7 @@ import java.util.ArrayList;
  * rows in the theater.
  *
  * @author Final 2 Crew
- * @version 4.25.22
+ * @version 5.8.22
  */
 public class Theater 
 {

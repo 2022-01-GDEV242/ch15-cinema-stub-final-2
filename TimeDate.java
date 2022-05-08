@@ -5,7 +5,7 @@ import java.util.ArrayList;
  * the TimeDate class would then connect that time to a specific theater.
  *
  * @author Final 2 Crew
- * @version (a version number or a date)
+ * @version 5.8.22
  */
 public class TimeDate{
     ArrayList<String> theaters = new ArrayList<String>();
